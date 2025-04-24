@@ -1,12 +1,23 @@
-# React + Vite
+React + Vite To-Do List
+This is a simple To-Do List application built using React and Vite, providing a fast development environment with Hot Module Replacement (HMR). This template comes with a minimal setup to get started quickly.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Add tasks: Quickly add tasks to your to-do list.
 
-Currently, two official plugins are available:
+Delete tasks: Remove tasks as needed.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Fast development: Powered by Vite for fast bundling and HMR.
 
-## Expanding the ESLint configuration
+Tech Stack
+React: A JavaScript library for building user interfaces.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Vite: A next-generation, fast build tool for modern web development.
+
+ESLint: Linting setup with a few custom rules to improve code quality.
+
+Plugins Used
+This project includes the following official Vite plugins for React:
+
+@vitejs/plugin-react: Uses Babel for Fast Refresh and provides excellent React support.
+
+@vitejs/plugin-react-swc: Uses SWC for Fast Refresh (an alternative to Babel) with improved performance.
